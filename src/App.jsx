@@ -8,9 +8,10 @@ import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 
 
+
 function App() {
   const titulo= "DESARROLLADORA FRONT END"
-
+  
   return (
   <>
   <Header />
@@ -18,7 +19,7 @@ function App() {
   <TechSkill /> 
   <Proyect />
   <Contact /> 
-  
+   
   <Footer /> 
 
   </>

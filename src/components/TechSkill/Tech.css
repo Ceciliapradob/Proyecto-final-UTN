@@ -20,3 +20,10 @@
 .contenedor-tecnologias figure h1{
     font-size: 15px;
 }
+@media (max-width:768px) {
+    .contenedor-tecnologias{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    }

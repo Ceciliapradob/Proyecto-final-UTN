@@ -176,4 +176,33 @@ margin-bottom: 3%;
     .presentacion-foto{
      width: 200px;
     }
+   
 }
+@media (max-width:768px) {
+    .contenedor-texto .presentacion-developer{
+        font-size: 30px;
+    }
+    
+    .presentacion-foto{
+     width: 200px;
+    }
+    .contenedor-sobremi{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .contenedor-img .presentacion-foto{
+        width: 200px;
+
+    }
+    .contenedor{ 
+        width: 300px;
+        margin-left: 30%;
+    }
+    .button-leerMas{
+        width: 120px;
+        padding: 10px;
+        font-size: 15px;
+        margin-right: 10%;
+    }
+    }
+   

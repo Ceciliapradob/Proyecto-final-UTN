@@ -131,3 +131,10 @@
     font-size: 15PX;
 }
 }
+@media (max-width:768px) {
+    .boton-proyectos{
+        width: 150px;
+        height: 50px;
+        font-size: 10px;
+    }
+    }
