@@ -58,7 +58,8 @@ const Contact = () => {
 
 
     return (
-        <div>
+        <div className='formulario-contenedor'>
+            <hr />
             <div>
                 <div className='contacto-titulo' id='contacto'>
                     <h2>Envíame un mail</h2>

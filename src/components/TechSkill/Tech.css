@@ -1,9 +1,11 @@
 .tecnologias{
     text-align: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 2%;
     margin-bottom: 3%;
-    font-size: 25px;
+    font-size: 22px;
+    margin: 0 auto;
+    
 }
 
 .contenedor-tecnologias figure img{

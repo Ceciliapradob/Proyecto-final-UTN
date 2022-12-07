@@ -28,7 +28,7 @@ const About = (props) => {
      
 
       <div className="contenedor">
-        <h1>Hola, soy Ceci</h1>
+        <h1>Hola, soy CeciLia Prado</h1>
         <p className='parrafo'>Soy front end developer, manejo diversas tecnologías y me gusta el trabajo en equipo con la
           capacitacióm, me gusta sumar nuevas experiencias creciendo así aún más en lo personal y profesional. 
           Soy front end Junior estudiada en la universidad UTN</p> 

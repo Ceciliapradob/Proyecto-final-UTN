@@ -8,9 +8,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url(../src/assets/cielo.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+  
    
 
 }

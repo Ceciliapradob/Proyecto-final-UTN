@@ -10,6 +10,8 @@ const Proyect = () => {
 
     return(
        <> 
+       
+       <div className='contenedor-proyectos'> 
        <hr />
        <h1 className='titulo-proyectos' id='proyectos'>Proyectos realizados</h1> 
     <div className="contenedor-card">
@@ -50,10 +52,12 @@ const Proyect = () => {
     </div>
   </div>
 </div>
+
  <div className="boton">
  <button className='boton-proyectos'><a href="#" className='link-proyectos'>Conocer los proyectos</a></button>
  </div>
- <hr />
+ </div>
+ 
  
        </>
     )

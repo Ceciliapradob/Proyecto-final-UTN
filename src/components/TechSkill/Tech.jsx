@@ -8,6 +8,7 @@ import './Tech.css'
 const Tech = () => {
     return(
         <>
+        <div className='contenedor-tecnologias1'> 
         <hr />
         <h1 className='tecnologias' id='tecnologia'>Tecnologías que manejo</h1>
         <div className='contenedor-tecnologias'>
@@ -23,6 +24,7 @@ const Tech = () => {
      </div>
      <div>
         
+     </div>
      </div>
         </>
     )
