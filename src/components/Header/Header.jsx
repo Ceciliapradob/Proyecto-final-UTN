@@ -1,8 +1,8 @@
 import React from 'react';
 import './Header.css'
-import Instagram from '../../assets/icono-instagram.png'
-import Facebook from '../../assets/icono-facebook.png'
-
+import Instagram from '../../assets/instagramlogo.jpg'
+import Facebook from '../../assets/facebookicono.png'
+import Likedind from '../../assets/iconoin.png'
 const Header = () => {
     return (
         <>
@@ -17,6 +17,7 @@ const Header = () => {
                 <figure className="icono">
                     <a href="https://www.instagram.com/cecilinn_/" target="_blank"><img src={Instagram} alt /></a>
                     <a href="https://www.facebook.com/profile.php?id=100065123491685" target="_blank"><img src={Facebook} className="face" alt /></a>
+                    <a href="https://www.linkedin.com/in/cecilia-prado-29601521b/" target="_blank"><img src={Likedind} className="face" alt /></a>
                 </figure>
             </header>
         </>

@@ -23,8 +23,8 @@ const Proyect = () => {
     <div className="contenido">
       <h3>Landing Page</h3>
       <p>
-      Desarrollar una Landing Page para agencia de Marketing, con el objetivo de mostrar el servicio a ofrecer y cuenta con una sección de formulario para que dichos clientes puedan contactarse. 
-      Fue basada en HTML- CSS- SASS 
+      Desarrollar una Landing Page para agencia de Marketing, con el objetivo de mostrar el servicio a ofrecer, equipo que maneja la agencia y cuenta con una sección de formulario para que dichos clientes puedan contactarse. 
+      Fue basada en HTML- CSS- SASS y actualmente se está trabajando en la interactividad con Javascript.
       </p>
       
     </div>
@@ -44,19 +44,7 @@ const Proyect = () => {
      <a href="https://github.com/Ceciliapradob/Proyecto-final-UTN"> <img src={Github} alt="" /> </a>
     </div>
   </div>
-  <div className="card">
-    <figure>
-      <img src={Desarroladora} alt />
-    </figure>
-    <div className="contenido">
-      <h3>Portfolio</h3>
-      <p> Diseñar y desarrollar un portfolio que represente las actividades que realizo, cuenta con un diseño muy básico ya que fue basado en solo HTML Y CSS. Lo realice en momentos de practicas y pruebas de mis conocimientos.</p>
-     
-    </div>
-    <div className='icono-github'>
-     <a href=""> <img src={Github} alt="" /> </a>
-    </div>
-  </div>
+
 </div>
 
  <div className="boton">

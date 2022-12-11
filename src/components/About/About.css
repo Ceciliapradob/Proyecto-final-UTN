@@ -8,6 +8,10 @@
     align-items: center;
     padding: 4rem;
 }
+.cecilia{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+}
 
 .contenedor-texto h2 {
     text-align: center;
