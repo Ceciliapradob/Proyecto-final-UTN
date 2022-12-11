@@ -1,31 +1,41 @@
 .titulo-proyectos{
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 4%;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .contenedor-card {
     display: flex;
-    max-width: 100%;
-    margin: 0 auto;
+    
+   
     
     
 
 }
 .contenedor-proyectos{
     background: linear-gradient(rgb(147, 233, 226), rgb(211, 137, 201));
+    margin: 0 auto;
+   
 }
 
 .card {
-    margin: 20px;
+    margin: 25px;
     border-radius: 6px;
     overflow: hidden;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
     cursor: default;
     transition: all 2s ease;
+    width: 100%;
     
 
+}
+.card .contenido{
+    text-align: center;
+    width: 90%;
+    font-size: 15px;
+    
+    
 }
 
 .card:hover {
@@ -35,7 +45,8 @@
 
 .card img {
     width: 100%;
-    height: 150px;
+    height: 100%;
+    
 }
 
 .card .contenido {
@@ -47,11 +58,16 @@
     margin-bottom: 5%;
 }
 
-
-
-.card .contenido p{
-   
+.icono-github a img{
+    width: 30px;
+    height: 30px;
 }
+.icono-github{
+    display: flex;
+    justify-content: center;
+}
+
+
 
 .boton{
     display: flex;
@@ -66,18 +82,20 @@
     background-color: black;
     color: white;
     padding: 10px;
-    width: 300px;
+    width: 250px;
     cursor: pointer;
     margin-bottom: 3%;
+    
 }
 .boton-proyectos:hover{
-   background-color: beige;
+   background: beige;
    color: black;
+   transition: background-color 3s;
 }
 .link-proyectos {
     color: white;
     text-decoration: none;
-    font-size: 20PX;
+    font-size: 18px;
 }
 .link-proyectos:hover{
     color: black;
@@ -87,6 +105,13 @@
     .contenedor-card{
         display: flex;
         flex-direction: column;
+        margin: 0 auto;
+        width: 100%;
+        margin-left: 0;
+       
+    }
+    .card figure img{
+        width: 100%;
     }
     
 .boton-proyectos {
@@ -107,9 +132,15 @@
     .contenedor-card{
         display: flex;
         flex-direction: column;
-        width: 500px;
-        margin-left: 20%;
+        width: 100%;
+        margin: 0 auto;
+        
+        
     }
+    .card figure img{
+        width: 100%;
+    }
+
     .card{
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
     cursor: default;

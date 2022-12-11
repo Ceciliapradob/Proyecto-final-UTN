@@ -62,7 +62,7 @@ const Contact = () => {
             <hr />
             <div>
                 <div className='contacto-titulo' id='contacto'>
-                    <h2>Envíame un mail</h2>
+                    <h2 className='mail'>Envíame un mail</h2>
                     
                 </div>
             </div>

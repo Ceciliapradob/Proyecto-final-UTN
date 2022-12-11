@@ -9,13 +9,17 @@
 }
 
 .contenedor-tecnologias figure img{
-    width: 60px;
+    width: 50px;
     
 }
 .contenedor-tecnologias{
     display: flex;
-   justify-content:space-between;
-   margin: 0px 75px 75px ;
+   justify-content:space-evenly;
+   margin: 0 75px 75px ;
+   margin-left: 20px;
+   margin-right: 20px;
+   
+   
    
    
  }

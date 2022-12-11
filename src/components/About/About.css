@@ -1,10 +1,8 @@
 
 
-/*SECCION BANNER*/
+
 .contenedor-sobremi {
-    background-image: url(../../assets/cielo.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: linear-gradient(rgb(233, 236, 236), rgb(211, 137, 201));
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -26,7 +24,10 @@
 .contenedor h1{
     font-size: 25px;
 }
-
+.cecilia{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
 .container-icons-header {
     display: flex;
     justify-content: center;
@@ -59,9 +60,10 @@
 .contenedor-img img {
     width: 200px;
     height: 200px;
-    border-radius: 50%;
+    border-radius: 55%;
     transition: all 2s ease;
     transform: translateY(-3%);
+    margin-top: 8%;
 
 }
 
@@ -72,10 +74,7 @@
     margin-top: 4%;
 }
 
-/* .container-about {
-    display: flex;
-    justify-content: center;
-} */
+
 .container-about h2{
     font-size: 30px;
 }
@@ -175,11 +174,19 @@ margin-bottom: 3%;
 }
 
 
+
 @media (max-width:500px) {
     .contenedor-texto .presentacion-developer{
-        font-size: 25px;
+        font-size: 20px;
     }
-    
+    .contenedor{
+        background: linear-gradient(rgb(147, 233, 226), rgb(211, 137, 201));
+        margin-left: 0;
+        
+    }
+    .button-leerMas{
+        margin-left: 5%;
+    }
     .presentacion-foto{
      width: 200px;
     }
@@ -202,8 +209,8 @@ margin-bottom: 3%;
 
     }
     .contenedor{ 
-        width: 300px;
-        margin-left: 30%;
+        width: 100%;
+        
     }
     .button-leerMas{
         width: 120px;

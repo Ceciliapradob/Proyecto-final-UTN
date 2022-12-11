@@ -2,7 +2,7 @@ import React from 'react';
 import Html from '../../assets/html.png'
 import Css from '../../assets/css.png'
 import Sass from '../../assets/sass.webp'
-import Javascript from '../../assets/javascript.png'
+import Reactjs from '../../assets/react-native.png'
 import './Tech.css'
 
 const Tech = () => {
@@ -13,13 +13,16 @@ const Tech = () => {
         <h1 className='tecnologias' id='tecnologia'>Tecnologías que manejo</h1>
         <div className='contenedor-tecnologias'>
             <figure className="html">
-            <h1><img src={Html} alt=""/>HTML</h1>
+            <h1><img src={Html} alt="icono html"/>HTML</h1>
             </figure>
             <figure className="css">
-            <h1><img src={Css} alt=""/>CSS</h1>
+            <h1><img src={Css} alt="icono css"/>CSS</h1>
             </figure>
             <figure className="sass">
-              <h1><img src={Sass} alt=""/>SASS</h1>
+              <h1><img src={Sass} alt="icono sass"/>SASS</h1>
+            </figure>
+            <figure className="react">
+              <h1><img src={Reactjs} alt="icono react"/>REACT JS</h1>
             </figure>
      </div>
      <div>
